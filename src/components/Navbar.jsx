@@ -26,7 +26,7 @@ const Navbar = () => {
         </h1>
       </Link>
       {user?.email ? (
-        <div>
+        <div className='my-2 sm:my-0 flex flex-col items-center justify-center gap-2 sm:inline-block'>
           <Link to='/account'>
             <button className='text-white pr-4'>Account</button>
           </Link>
